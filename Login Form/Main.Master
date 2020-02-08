@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Login_Form.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <link rel="Stylesheet" href="Includes/Main.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="fullPage">
+    <form id="form1" runat="server">
+        <div class="pageContent">
+            <div class="header">
+                <div class="headerTxt">All in One Mobile Store</div>
+                <div class="header_word">..connecting you</div>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="footer">
+                Copyright © 2013 Mitesh Vora
+            </div>
+        </div>
+        <div class="loginContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderLogin" runat="server">
+            </asp:ContentPlaceHolder>
+        </div> 
+    </form>
+</body>
+</html>

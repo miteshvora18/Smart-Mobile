@@ -1,0 +1,150 @@
+﻿html,body,form
+{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.fullPage
+{
+	background: url("moontree.jpg") repeat scroll 0 0 transparent;
+    border: 0 none;
+    height: 100%;
+    width: 100%;
+    margin:0;	
+}
+
+body
+{
+	font-size:18px;	
+}
+
+.pageContent 
+{
+    background-color:#808080;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 980px;
+    font-family:Comic Sans MS;
+    min-height: 100%;
+    position: relative;
+}
+
+.pageContent .content
+{
+    background-color: #808080;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.loginContent
+{
+	background-color: Gray;
+    color: #FFFFFF;
+    margin: 200px auto 0;
+    width: 360px;
+    font-family:Comic Sans MS;
+}
+
+.login
+{
+	font-size: 20px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 250px;
+}
+
+.marginBotttom10
+{
+	margin-bottom:10px;
+}
+
+.marginTop20
+{
+	margin-top:20px;
+}
+
+.txt
+{
+	color: maroon;
+    font-size: 20px;
+    height: 30px;
+    width:250px;
+}
+
+.btn 
+{
+    background-color: #93b745;
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    padding-bottom: 3px;
+    width: 110px;
+}
+
+.btnLogin
+{
+	margin-left:70px;
+	font-family:Comic Sans MS;
+}
+
+.header
+{
+	background-color: #93B745;
+    height: 80px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.header .headerTxt
+{
+    font-size:30px;
+    color:#000000;
+}
+
+.header .header_word
+{
+    color: #800080;
+    font-size: 20px;
+    padding-left: 330px;
+}
+
+.footer
+{
+	background-color: #93B745;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color:#000000;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.errorMsg
+{
+    color: #FF0000;
+    font-size: 15px;
+    height: 15px;
+}
+
+.successMsg
+{
+    color: #00FF00;
+    font-size: 15px;
+    height: 15px;
+}
+
+.login .forgotPass
+{
+    color: maroon;
+    font-size: 20px;
+    padding-top:10px;
+}
